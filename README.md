@@ -1,4 +1,4 @@
-### Setup backend script
+## Setup backend script
 
 Step-1) Clone the above repo.
 
