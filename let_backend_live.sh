@@ -2,8 +2,9 @@
 
 # URLs of your backend
 URLS=(
-    "https://exploro-travel-assignment.onrender.com/test"
-    "https://bloodunity-backend.onrender.com/api/v1/test"
+    "BACKEND_URL_1"
+    "BACKEND_URL_2"
+    ...
 )
 
 # Log file location
