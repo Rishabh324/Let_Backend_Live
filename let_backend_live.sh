@@ -8,7 +8,7 @@ URLS=(
 )
 
 # Log file location
-LOG_FILE="/var/log/keep_backend_alive.log"
+LOG_FILE="/var/log/let_backend_live.log"
 
 # Function to ping the backend
 ping_backend() {
@@ -28,7 +28,7 @@ ping_backend() {
 # Function to run as a daemon
 start_daemon() {
     nohup bash -c "ping_backend" >/dev/null 2>&1 &
-    echo $! > /var/run/keep_backend_alive.pid  # Store PID of the daemon process
+    echo $! > /var/run/let_backend_live.pid  # Store PID of the daemon process
 }
 
 # Start the daemon
